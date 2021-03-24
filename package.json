@@ -1,0 +1,25 @@
+{
+  "name": "YoutubeSearch",
+  "version": "1.0.0",
+  "description": "youtub search page",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir public src src/js src/scss & touch public/index.html & npm i --save node-sass live-server",
+    "start": "live-server --open=public & node-sass -w src/scss -o public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmineRM/YoutubeSearch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmineRM/YoutubeSearch/issues"
+  },
+  "homepage": "https://github.com/AmineRM/YoutubeSearch#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  }
+}
