@@ -22,7 +22,7 @@
       border-radius: 50px;
       color: #fff;
       font-size: 15px;
-      padding: 0 25px; }
+      padding: 0 50px 0 25px; }
     .container .searchBar input::placeholder {
       color: #656565; }
     .container .searchBar .searchIcon {
